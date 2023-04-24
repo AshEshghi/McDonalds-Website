@@ -1,0 +1,18 @@
+{
+  "name": "mcdonald-proj",
+  "version": "1.0.0",
+  "description": "This is a McDonald's webite replica using Tailwind Css",
+  "main": "index.js",
+  "scripts": {
+    "tailwind":"npx tailwindcss -i ./src/tailwind.css -o ./css/main.css --watch"
+
+  },
+  "author": "A.Eshghi",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
